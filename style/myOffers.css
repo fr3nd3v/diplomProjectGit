@@ -1,0 +1,116 @@
+.myoffers {
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+    color: #000;
+    font-weight: 700;
+}
+.myoffers__title {
+    margin-bottom: 20px;
+}
+.myoffers__offers_container {
+    display: grid;
+    grid-template-columns: 1fr;   
+}
+.myoofers__offers {
+    display: flex;
+    align-items: center;
+   
+    justify-content: space-around;
+    margin-bottom: 10px;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    margin-bottom: 20px;
+    transition: ease .3s;
+}
+.myoofers__offers:hover {
+    box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 1);
+}
+
+.offers__id {
+}
+.offer__about {
+    display: flex;
+    flex-wrap: wrap;
+}
+.offer__card {
+    
+    display: flex;
+    flex-direction: column;
+    max-height:  300px;
+    margin-right: 10px;
+    font-size: 16px;
+}
+.offers__img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    cursor: pointer;
+    transition: ease-in .2s;
+    
+}
+.product-card__img {
+}
+.product__name {
+}
+.product__cost {
+}
+.offers__cost_final {
+    margin-right: 10px;
+}
+.offers__status {
+    margin-bottom: 20px;
+    
+}
+.sub{
+    font-size: 16px;
+    font-weight: normal;
+}
+.value{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.myOfferInfo_btn{
+    max-width: 150px;
+    padding: 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-radius: 20px;
+    border: none;
+    background-color: #40AAF2;
+    color: #fff;
+    background-size: 450% 100%;
+    cursor: pointer;
+    font-size: 16px;
+}
+.myOfferInfo_btn:hover{
+    background-position: 100% 0;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+.myOfferInfo_btn:active{
+    transition: 0.1s ease;
+    box-shadow: inset 0 0px 100px 5px rgba(0, 0, 0, 0.75);
+}
+.myOfferInfo_btn.gradient{
+    background-image: linear-gradient(to right, #7c37eb, #0051ff, #a80a0a, #b39800);
+    
+}
+@media (max-width: 650px) { 
+    .myoofers__offers{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .offer__about{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

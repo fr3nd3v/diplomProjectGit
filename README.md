@@ -14,3 +14,5 @@ Yeah.. I know the code here is a mess but this is my first big project and it is
 • Admin panel with the ability to add / delete / edit items, also implemented the ability to change the status of the goods - sent, in processing, delivered, canceled, etc. 
 
 • Storage of all data in the database
+
+• Goods rendering using JSON
